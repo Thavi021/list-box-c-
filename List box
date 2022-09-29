@@ -1,0 +1,92 @@
+// Creating a ListBox control
+ListBox mylist = new ListBox(); 
+
+ListBox mylist = new ListBox(); 
+        mylist.Location = new Point(287, 109); 
+        mylist.Size = new Size(120, 95); 
+        mylist.ForeColor = Color.Purple; 
+        mylist.Items.Add(123); 
+        mylist.Items.Add(456); 
+        mylist.Items.Add(789);
+
+// Adding ListBox control 
+// to the form 
+this.Controls.Add(mylist);
+
+Example:
+
+
+using System; 
+
+using System.Collections.Generic; 
+
+using System.ComponentModel; 
+
+using System.Data; 
+
+using System.Drawing; 
+
+using System.Linq; 
+
+using System.Text; 
+
+using System.Threading.Tasks; 
+
+using System.Windows.Forms; 
+
+  
+
+namespace WindowsFormsApp25 { 
+
+  
+
+public partial class Form1 : Form { 
+
+  
+
+    public Form1() 
+
+    { 
+
+        InitializeComponent(); 
+
+    } 
+
+  
+
+    private void Form1_Load(object sender, EventArgs e) 
+
+    { 
+
+  
+
+        // Creating and setting the 
+
+        // properties of ListBox 
+
+        ListBox mylist = new ListBox(); 
+
+        mylist.Location = new Point(287, 109); 
+
+        mylist.Size = new Size(120, 95); 
+
+        mylist.ForeColor = Color.Purple; 
+
+        mylist.Items.Add(123); 
+
+        mylist.Items.Add(456); 
+
+        mylist.Items.Add(789); 
+
+  
+
+        // Adding ListBox control 
+
+        // to the form 
+
+        this.Controls.Add(mylist); 
+
+    } 
+} 
+} 
+
